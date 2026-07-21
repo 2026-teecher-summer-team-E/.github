@@ -3,7 +3,7 @@
 
 <p align="center">
   서울 상권(약 1,650개 공식 상권)을 분석해 <b>창업 컨설팅사·프랜차이즈 본사</b>의 입지 의사결정을 돕는 웹 서비스<br/>
-  서울 열린데이터광장 · 한국부동산원 R-ONE 데이터를 수집해 <b>ETL → PostgreSQL/PostGIS → FastAPI → React</b>로 잇고,<br/>
+  서울 열린데이터광장 · 한국부동산원 R-ONE 데이터를 수집해 <b>ETL 파이프라인 → PostgreSQL/PostGIS → FastAPI → React</b>로 잇고,<br/>
   생존율·유동인구·매출을 예측하는 <b>ML 레이어</b>(Darts TFT/DeepAR + LightGBM)를 얹었습니다.
 </p>
 
