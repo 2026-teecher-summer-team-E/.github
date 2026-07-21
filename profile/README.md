@@ -34,35 +34,38 @@
 
 # 🕺🏻 Demo
 
-### 지역분석 — 상권을 눈으로 고른다
+### 랜딩 페이지
+<hr>
+
+![Landing](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/landing_page.gif)
+CommercialRadar에 처음 들어오면 보이는 화면입니다. 서비스가 어떤 문제를 풀고 어떤 기능을 제공하는지 한눈에 보여줍니다.
+<br><br>
+
+### 지역분석
 <hr>
 
 ![Map](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/polygon_click.gif)
 Leaflet 기반 지도에서 상권 경계를 클릭하면 해당 영역의 핵심 지표가 즉시 뜹니다.
 <br><br>
 
-### 상세 분석 — 이 상권의 지금
+### 상세 분석
 <hr>
 
 ![Dashboard](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/analyze_page.gif)
 유동인구, 인당 소비, 연령·성별 구성, 외국인 비중을 카드로 정리했습니다. 각 지표는 "전체 상권 평균" 마커와 함께 보여줘, 이 상권이 평균 대비 어디쯤인지 바로 읽힙니다. 업종 분포 카드에서는 이 상권에 어떤 업종이 얼마나 몰려 있는지 파악할 수 있어, 경쟁 구도를 가늠하는 데 그대로 쓸 수 있습니다.
-<br><br>
-
-### 예측 그래프 — 앞으로는
-<hr>
 
 ![Forecast](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/scenario_choice.gif)
 임대료와 매출을 Best, Normal, Worst 시나리오로 예측합니다. 각 시나리오에서 유동인구 흐름과 점포 생존율을 함께 볼 수 있습니다.
 <br><br>
 
-### 창업 시뮬레이터 — 내 예산으로 갈 수 있는 상권 찾기
+### 창업 시뮬레이터
 <hr>
 
 ![Simulator](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/startup_simulation.gif)
 한 달에 낼 수 있는 임대료와 원하는 점포 면적을 입력하면, 그 예산 안에서 창업 가능한 서울 상권을 전부 찾아줍니다. 지역(자치구·행정동·상권명)으로 좁혀서 검색할 수 있고, 결과는 임대료가 저렴한 순 또는 상권 점수가 높은 순으로 바로 정렬해 볼 수 있습니다. 목록의 상권을 고르면 지도에서 바로 위치를 확인하고, 이어서 그 상권의 상세 분석과 예측 그래프로 넘어가 예산 안에서 가장 유망한 곳을 좁혀나갈 수 있습니다.
 <br><br>
 
-### 상권 비교 — 나란히 놓고 본다
+### 상권 비교
 <hr>
 
 ![Compare](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/compare.gif)
@@ -77,14 +80,14 @@ Leaflet 기반 지도에서 상권 경계를 클릭하면 해당 영역의 핵�
 지표별로 상권 순위를 매겨 보여줍니다.
 <br><br>
 
-### 트렌드 — 지금 뜨는 업종, 지는 업종
+### 트렌드
 <hr>
 
 ![Trends](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/trend.gif)
 네이버 검색 관심도로 서울 전체 상권의 업종 트렌드를 읽습니다. 많이 검색된 업종을 키워드로 보여주고, 클릭하면 함께 움직이는 연관 업종까지 확인할 수 있습니다. 연도를 선택하면 그 해 인기 업종들이 달마다 순위를 주고받는 모습을 레이스 차트로 볼 수 있고, 검색 관심도 변화율을 기준으로 지금 떠오르는 업종과 침몰 중인 업종을 각각 랭킹으로 보여줍니다. 각 업종마다 검색지수와 전분기 대비 창업 수 변화까지 함께 확인할 수 있습니다.
 <br><br>
 
-### 상권 벨트 — 뜨는 곳, 지는 곳
+### 상권 벨트
 <hr>
 
 ![Belt](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/commercial_belt.gif)
