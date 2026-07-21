@@ -34,20 +34,20 @@
 
 # 🕺🏻 Demo
 
-### 랜딩 페이지
+## 랜딩 페이지
 <hr>
 
 ![Landing](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/landing_page.gif)
 <br><br>
 
-### 지역분석
+## 지역분석
 <hr>
 
 ![Map](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/polygon_click.gif)
 Leaflet 기반 지도에서 상권 경계를 클릭하면 해당 영역의 핵심 지표가 즉시 뜹니다.
 <br><br>
 
-### 상세 분석
+## 상세 분석
 <hr>
 
 ![Dashboard](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/analyze_page.gif)
@@ -57,14 +57,14 @@ Leaflet 기반 지도에서 상권 경계를 클릭하면 해당 영역의 핵�
 임대료와 매출을 Best, Normal, Worst 시나리오로 예측합니다. 각 시나리오에서 유동인구 흐름과 점포 생존율을 함께 볼 수 있습니다.
 <br><br>
 
-### 창업 시뮬레이터
+## 창업 시뮬레이터
 <hr>
 
 ![Simulator](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/startup_simulation.gif)
 한 달에 낼 수 있는 임대료와 원하는 점포 면적을 입력하면, 그 예산 안에서 창업 가능한 서울 상권을 전부 찾아줍니다. 지역(자치구·행정동·상권명)으로 좁혀서 검색할 수 있고, 결과는 임대료가 저렴한 순 또는 상권 점수가 높은 순으로 바로 정렬해 볼 수 있습니다. 목록의 상권을 고르면 지도에서 바로 위치를 확인하고, 이어서 그 상권의 상세 분석과 예측 그래프로 넘어가 예산 안에서 가장 유망한 곳을 좁혀나갈 수 있습니다.
 <br><br>
 
-### 상권 비교
+## 상권 비교
 <hr>
 
 ![Compare](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/compare.gif)
@@ -72,28 +72,28 @@ Leaflet 기반 지도에서 상권 경계를 클릭하면 해당 영역의 핵�
 관심 상권을 최대 5개까지 검색해 추가하면, 종합 점수·생존율·개업률·유동인구를 한 표에서 비교하고 가장 좋은 값은 바로 눈에 띄게 표시됩니다. 생존율·유동인구·매출·안정성·성장성 5개 지표는 레이더 차트로 환산해, 상권마다 강점과 약점이 어디인지 한눈에 보입니다. 분기와 업종을 바꿔가며 필터링할 수 있고, 상권별 생존율 추이를 시계열로 겹쳐 보면서 업종별 추천 순위까지 함께 확인합니다. 두 상권만 골라 "1:1 비교 시뮬레이션"을 열면, Best·Normal·Worst 시나리오에 따라 두 상권의 분위기(유동인구, 생존율, 낮/밤 매출 비중)를 나란히 애니메이션으로 체감할 수 있습니다.
 <br><br>
 
-### 랭킹
+## 랭킹
 <hr>
 
 ![Ranking](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/commercial_ranking.gif)
 지표별로 상권 순위를 매겨 보여줍니다.
 <br><br>
 
-### 트렌드
+## 트렌드
 <hr>
 
 ![Trends](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/trend.gif)
 네이버 검색 관심도로 서울 전체 상권의 업종 트렌드를 읽습니다. 많이 검색된 업종을 키워드로 보여주고, 클릭하면 함께 움직이는 연관 업종까지 확인할 수 있습니다. 연도를 선택하면 그 해 인기 업종들이 달마다 순위를 주고받는 모습을 레이스 차트로 볼 수 있고, 검색 관심도 변화율을 기준으로 지금 떠오르는 업종과 침몰 중인 업종을 각각 랭킹으로 보여줍니다. 각 업종마다 검색지수와 전분기 대비 창업 수 변화까지 함께 확인할 수 있습니다.
 <br><br>
 
-### 상권 벨트
+## 상권 벨트
 <hr>
 
 ![Belt](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/commercial_belt.gif)
 가까운 인기 상권들을 하나의 "벨트"로 묶어, 벨트 간 매출 성장률을 비교합니다. 같은 벨트 안에서도 지금 뜨고 있는 곳과 지고 있는 곳이 갈리는데, 랭킹으로 바로 확인할 수 있습니다.
 <br><br>
 
-### 관심 상권 저장 · 마이페이지
+## 관심 상권 저장 · 마이페이지
 <hr>
 
 ![MyPage](https://raw.githubusercontent.com/2026-teecher-summer-team-E/CommercialRadar/main/imgs/my_page.gif)
@@ -306,7 +306,7 @@ npm run dev
 ## 👥 Member
 | Name | 조항중 | 김규보 | 장예지 | 이동호 | 박채연 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| Role | Team Lead<br>Backend · Data · ML | Backend · Data | Backend · Data | Backend · Data | Backend · Data |
+| Role | Backend, Frontend, DevOps | Backend, Frontend | Backend, Frontend | Backend, Frontend | Backend, Frontend |
 | GitHub | <a href="https://github.com/whgkdwnd"><img src="http://img.shields.io/badge/whgkdwnd-green?style=social&logo=github"/></a> | <a href="https://github.com/KimKyuBo0411"><img src="http://img.shields.io/badge/KimKyuBo0411-green?style=social&logo=github"/></a> | <a href="https://github.com/marie11"><img src="http://img.shields.io/badge/marie11-green?style=social&logo=github"/></a> | <a href="https://github.com/LeeDongHo11"><img src="http://img.shields.io/badge/LeeDongHo11-green?style=social&logo=github"/></a> | <a href="#"><img src="http://img.shields.io/badge/박채연-green?style=social&logo=github"/></a> |
 
 ## 📁 Documentation
