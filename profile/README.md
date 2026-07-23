@@ -221,6 +221,14 @@ Leaflet 기반 지도에서 상권 경계를 클릭하면 해당 영역의 핵�
 docker compose -f docker-compose.yml -f docker-compose.monitoring.yml up -d
 # Grafana: http://localhost:3000  (초기 비밀번호는 GRAFANA_ADMIN_PASSWORD)
 ```
+<br>
+
+### 대시보드 · 성능 개선
+<hr>
+
+![Monitoring Improvement](https://raw.githubusercontent.com/2026-teecher-summer-team-E/.github/main/imgs/monitoring_improvement.png)
+
+부하 테스트 중 수집한 지표를 하나의 Grafana 대시보드에서 봅니다. 상단에 실시간 RPS와 p95 지연(약 237ms)을 요약하고, 그 아래로 RPS 시계열·CPU 사용률·메모리 사용량·Postgres TPS(commit + rollback)를 함께 배치해 부하가 오르는 구간에서 자원과 DB가 어떻게 반응하는지 한 화면에서 읽힙니다. 하단의 라우트별 RPS·p95 테이블로 어떤 엔드포인트가 트래픽과 지연을 끌고 가는지 짚어, 병목 지점을 찾아 성능을 개선하는 근거로 활용했습니다.
 <br><br>
 
 # 🚀 How to Start
